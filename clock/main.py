@@ -3,7 +3,6 @@ from time import *
 
 
 def update():
-
     time_string = strftime('%I:%M:%S %p')
     time_label.config(text=time_string)
 
@@ -19,7 +18,6 @@ def update():
 window = Tk()
 window.title('Clock')
 window.geometry("480x320")
-window.iconbitmap('clock.ico')
 
 space_label = Label(window, text="")
 space_label.pack()
